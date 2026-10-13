@@ -12,7 +12,7 @@ import cv2
 import numpy as np
 from PIL import Image
 
-RAMP = " .`:-=+*cs#%@"  # dark (sparse) -> bright (dense): light glyphs on a dark card, so bright pixels get dense glyphs
+RAMP = " .`:-=+*cs#%@"  # bright (sparse) -> dark (dense); leading space clears the background
 WIDTH = 370             # px, matches the left column in README.md
 CHAR_ASPECT = 0.6       # monospace glyph width / font size
 BG, FG = "#0d1117", "#c9d1d9"
@@ -21,12 +21,12 @@ BG, FG = "#0d1117", "#c9d1d9"
 def prep(path):
     img = Image.open(path).convert("RGBA")
     try:
-        from rembg import new_session, remove
-        img = remove(img, session=new_session("u2net_human_seg"))  # 170MB person model; rembg's 1GB default OOMs
+        from rembg import remove
+        img = remove(img)
     except ImportError:
         print("rembg not installed: skipping background removal")
-    black = Image.new("RGBA", img.size, (0, 0, 0, 255))  # background -> space glyph
-    gray = np.array(Image.alpha_composite(black, img).convert("L"))
+    white = Image.new("RGBA", img.size, (255, 255, 255, 255))
+    gray = np.array(Image.alpha_composite(white, img).convert("L"))
     return cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8)).apply(gray)
 
 
@@ -34,7 +34,7 @@ def to_rows(gray, cols):
     h, w = gray.shape
     rows = max(1, round(cols * h / w * CHAR_ASPECT))  # glyphs are taller than wide
     small = cv2.resize(gray, (cols, rows), interpolation=cv2.INTER_AREA)
-    idx = small.astype(int) * (len(RAMP) - 1) // 255
+    idx = ((255 - small.astype(int)) * (len(RAMP) - 1) // 255)  # dark pixel -> dense glyph
     lines = ["".join(RAMP[i] for i in row) for row in idx]
     # crop empty rows top/bottom so the face fills the frame
     while lines and not lines[0].strip():
