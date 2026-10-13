@@ -184,6 +184,8 @@ if __name__ == "__main__":
         data = fetch(args[0] if args else "KanveerMadan")
         os.makedirs("data", exist_ok=True)
         json.dump(data, open("data/contributions.json", "w"), indent=1)
+    with open("contrib-heatmap.svg", "w") as f:
+        f.write(heatmap(data))
     with open("stats-card.svg", "w") as f:
         f.write(stats_card(stats(data), "kanveer@github"))
-    print(f"wrote stats-card.svg ({len(data['days'])} days, {data['total']} contributions)")
+    print(f"wrote contrib-heatmap.svg + stats-card.svg ({len(data['days'])} days, {data['total']} contributions)")

@@ -22,6 +22,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stats-card.svg data/contributions.json
-          git diff --cached --quiet || git commit -m "chore: refresh stats [skip ci]"
+          git add contrib-heatmap.svg stats-card.svg data/contributions.json
+          git diff --cached --quiet || git commit -m "chore: refresh heatmap + stats [skip ci]"
           git push

@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Kanveer Madan: AI/ML Engineer, Published Researcher"/>
+<img src="./banner.svg" width="100%" alt="Kanveer Madan, enchanté!"/>
+
+<br><br>
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,fastapi,react,git,docker,vercel&theme=dark" alt="Stack: Python, PyTorch, scikit-learn, FastAPI, React, Git, Docker, Vercel"/>
 
 <br><br>
 
@@ -9,16 +13,7 @@
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-<img src="https://img.shields.io/badge/Earth%20Engine-4285F4?style=for-the-badge&logo=googleearth&logoColor=white" alt="Earth Engine"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="Render"/>
+<img src="./contrib-heatmap.svg" width="100%" alt="Contribution heatmap for the last year"/>
 
 <br><br>
 
