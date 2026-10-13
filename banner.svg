@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="230" viewBox="0 0 860 230"><style>.n{opacity:0;animation:u 1s ease-out forwards}.g{opacity:0;animation:u 1s ease-out .6s forwards}.r{opacity:0;animation:u .8s ease-out 1.2s forwards}@keyframes u{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1a3a"/><stop offset=".55" stop-color="#13254f"/><stop offset="1" stop-color="#0a1430"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7e7a1"/><stop offset=".55" stop-color="#d4af37"/><stop offset="1" stop-color="#a8862a"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset=".35" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset=".65" stop-color="#fff" stop-opacity="0"/><animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="4s" begin="1.5s" repeatCount="indefinite"/></linearGradient>
+</defs>
+<rect width="860" height="230" rx="14" fill="url(#bg)"/>
+<rect x="10" y="10" width="840" height="210" rx="9" fill="none" stroke="#d4af37" stroke-opacity=".55"/>
+<rect x="15" y="15" width="830" height="200" rx="6" fill="none" stroke="#d4af37" stroke-opacity=".25"/>
+<g class="n"><text x="430.0" y="112" text-anchor="middle" font-family="'Playfair Display','Didot','Bodoni 72',Georgia,'Times New Roman',serif" font-size="58" font-weight="700" fill="url(#gold)">Kanveer Madan,</text>
+<text x="430.0" y="112" text-anchor="middle" font-family="'Playfair Display','Didot','Bodoni 72',Georgia,'Times New Roman',serif" font-size="58" font-weight="700" fill="url(#sheen)">Kanveer Madan,</text></g>
+<text class="g" x="430.0" y="160" text-anchor="middle" font-family="'Playfair Display','Didot','Bodoni 72',Georgia,'Times New Roman',serif" font-size="40" font-style="italic" fill="url(#gold)">enchanté!</text>
+<g class="r"><line x1="280.0" y1="180" x2="580.0" y2="180" stroke="#d4af37" stroke-opacity=".5"/>
+<text x="430.0" y="202" text-anchor="middle" font-family="'Playfair Display','Didot','Bodoni 72',Georgia,'Times New Roman',serif" font-size="12.5" letter-spacing="2.5" fill="#f7e7a1" fill-opacity=".85">AI/ML ENGINEER  ·  PUBLISHED RESEARCHER  ·  SHIPPING ML TO PRODUCTION</text></g>
+</svg>
