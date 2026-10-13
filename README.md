@@ -9,11 +9,11 @@
 <br><br>
 
 <img src="./portrait.svg" width="49%" alt="Pixel portrait of Kanveer"/>
-<img src="./stats-card.svg" width="49%" alt="Contribution stats: streaks, totals and contributions per month"/>
+<img src="./stats-card.svg?v=2" width="49%" alt="Contribution stats: streaks, totals and contributions per month"/>
 
 <br><br>
 
-<img src="./contrib-heatmap.svg" width="100%" alt="Contribution heatmap for the last year"/>
+<img src="./contrib-heatmap.svg?v=2" width="100%" alt="Contribution heatmap for the last year"/>
 
 <br><br>
 
