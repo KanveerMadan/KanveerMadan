@@ -128,7 +128,7 @@ def stats_card(s, user, W=430, H=430):
          "@keyframes g{to{transform:scaleY(1)}}</style>",
          f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="10" fill="{BG}" stroke="{BORDER}"/>',
          '<circle cx="18" cy="16" r="5" fill="#ff5f56"/><circle cx="34" cy="16" r="5" fill="#ffbd2e"/><circle cx="50" cy="16" r="5" fill="#27c93f"/>',
-         f'<text x="{W / 2}" y="20" text-anchor="middle" font-family="{MONO}" font-size="11" fill="{DIM}">{user}: ~/stats.sh</text>',
+         f'<text x="{W / 2}" y="20" text-anchor="middle" font-family="{MONO}" font-size="11" fill="{DIM}">stats</text>',
          f'<g font-family="{MONO}">']
     y0 = 34
     for k, (label, big, unit, sub, hot) in enumerate(tiles):
