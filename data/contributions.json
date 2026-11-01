@@ -1,42 +1,7 @@
 {
  "user": "KanveerMadan",
- "total": 844,
+ "total": 890,
  "days": [
-  {
-   "date": "2025-10-26",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-27",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-28",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-29",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-30",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-10-31",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-11-01",
-   "level": 0,
-   "count": 0
-  },
   {
    "date": "2025-11-02",
    "level": 0,
@@ -1844,18 +1809,23 @@
   },
   {
    "date": "2026-10-29",
-   "level": 1,
-   "count": 24
+   "level": 2,
+   "count": 31
   },
   {
    "date": "2026-10-30",
    "level": 1,
-   "count": 4
+   "count": 6
   },
   {
    "date": "2026-10-31",
+   "level": 2,
+   "count": 31
+  },
+  {
+   "date": "2026-11-01",
    "level": 1,
-   "count": 2
+   "count": 8
   }
  ]
 }
