@@ -1,6 +1,6 @@
 {
  "user": "KanveerMadan",
- "total": 898,
+ "total": 986,
  "days": [
   {
    "date": "2025-11-09",
@@ -1785,12 +1785,12 @@
   {
    "date": "2026-10-31",
    "level": 2,
-   "count": 31
+   "count": 44
   },
   {
    "date": "2026-11-01",
-   "level": 1,
-   "count": 15
+   "level": 2,
+   "count": 43
   },
   {
    "date": "2026-11-02",
@@ -1839,13 +1839,18 @@
   },
   {
    "date": "2026-11-11",
-   "level": 0,
-   "count": 0
+   "level": 1,
+   "count": 9
   },
   {
    "date": "2026-11-12",
-   "level": 1,
-   "count": 1
+   "level": 2,
+   "count": 39
+  },
+  {
+   "date": "2026-11-13",
+   "level": 0,
+   "count": 0
   }
  ]
 }
